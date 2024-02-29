@@ -1,11 +1,11 @@
 package server
 
 import (
-	"controllers"
 	"database/sql"
+	"gowebbook/controllers"
+	"gowebbook/repositories"
+	"gowebbook/services"
 	"log"
-	"repositories"
-	"services"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
