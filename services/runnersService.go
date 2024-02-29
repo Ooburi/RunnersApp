@@ -1,9 +1,9 @@
 package services
 
 import (
-	"models"
+	"gowebbook/models"
+	"gowebbook/repositories"
 	"net/http"
-	"repositories"
 	"strconv"
 	"time"
 )
