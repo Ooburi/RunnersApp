@@ -12,9 +12,7 @@ type ResultsService struct {
 	runnersRepository *repositories.RunnersRepository
 }
 
-func NewResultsService(
-	resultsRepository *repositories.ResultsRepository,
-	runnersRepository *repositories.RunnersRepository) *ResultsService {
+func NewResultsService(resultsRepository *repositories.ResultsRepository, runnersRepository *repositories.RunnersRepository) *ResultsService {
 	return &ResultsService{
 		resultsRepository: resultsRepository,
 		runnersRepository: runnersRepository,

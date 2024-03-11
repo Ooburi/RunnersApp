@@ -2,11 +2,11 @@ package controllers
 
 import (
 	"encoding/json"
+	"gowebbook/models"
+	"gowebbook/services"
 	"io"
 	"log"
-	"models"
 	"net/http"
-	"services"
 
 	"github.com/gin-gonic/gin"
 )
